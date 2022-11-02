@@ -1,0 +1,401 @@
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Project.exe
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Project.deps.json
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Project.runtimeconfig.json
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Project.dll
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Project.pdb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\MonoGame.Framework.dll
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\runtimes\linux-x64\native\libopenal.so.1
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\runtimes\osx\native\libSDL2.dylib
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\runtimes\osx\native\libopenal.1.dylib
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\runtimes\win-x64\native\SDL2.dll
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\runtimes\win-x64\native\soft_oal.dll
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\runtimes\win-x86\native\SDL2.dll
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\runtimes\win-x86\native\soft_oal.dll
+F:\Desktop\GameDev\Project\Project\obj\Debug\net6.0\Project.csproj.AssemblyReference.cache
+F:\Desktop\GameDev\Project\Project\obj\Debug\net6.0\Project.GeneratedMSBuildEditorConfig.editorconfig
+F:\Desktop\GameDev\Project\Project\obj\Debug\net6.0\Project.AssemblyInfoInputs.cache
+F:\Desktop\GameDev\Project\Project\obj\Debug\net6.0\Project.AssemblyInfo.cs
+F:\Desktop\GameDev\Project\Project\obj\Debug\net6.0\Project.csproj.CoreCompileInputs.cache
+F:\Desktop\GameDev\Project\Project\obj\Debug\net6.0\Project.csproj.CopyComplete
+F:\Desktop\GameDev\Project\Project\obj\Debug\net6.0\Project.dll
+F:\Desktop\GameDev\Project\Project\obj\Debug\net6.0\refint\Project.dll
+F:\Desktop\GameDev\Project\Project\obj\Debug\net6.0\Project.pdb
+F:\Desktop\GameDev\Project\Project\obj\Debug\net6.0\Project.genruntimeconfig.cache
+F:\Desktop\GameDev\Project\Project\obj\Debug\net6.0\ref\Project.dll
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\1 Woodcutter\Woodcutter.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\1 Woodcutter\Woodcutter_attack1.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\1 Woodcutter\Woodcutter_attack2.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\1 Woodcutter\Woodcutter_attack3.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\1 Woodcutter\Woodcutter_climb.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\1 Woodcutter\Woodcutter_craft.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\1 Woodcutter\Woodcutter_death.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\1 Woodcutter\Woodcutter_hurt.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\1 Woodcutter\Woodcutter_idle.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\1 Woodcutter\Woodcutter_jump.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\1 Woodcutter\Woodcutter_push.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\1 Woodcutter\Woodcutter_run.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\1 Woodcutter\Woodcutter_walk.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\2 GraveRobber\GraveRobber.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\2 GraveRobber\GraveRobber_attack1.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\2 GraveRobber\GraveRobber_attack2.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\2 GraveRobber\GraveRobber_attack3.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\2 GraveRobber\GraveRobber_climb.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\2 GraveRobber\GraveRobber_craft.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\2 GraveRobber\GraveRobber_death.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\2 GraveRobber\GraveRobber_hurt.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\2 GraveRobber\GraveRobber_idle.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\2 GraveRobber\GraveRobber_jump.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\2 GraveRobber\GraveRobber_push.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\2 GraveRobber\GraveRobber_run.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\2 GraveRobber\GraveRobber_walk.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\3 SteamMan\SteamMan.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\3 SteamMan\SteamMan_attack1.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\3 SteamMan\SteamMan_attack2.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\3 SteamMan\SteamMan_attack3.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\3 SteamMan\SteamMan_climb.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\3 SteamMan\SteamMan_craft.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\3 SteamMan\SteamMan_death.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\3 SteamMan\SteamMan_hurt.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\3 SteamMan\SteamMan_idle.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\3 SteamMan\SteamMan_jump.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\3 SteamMan\SteamMan_push.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\3 SteamMan\SteamMan_run.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\3 SteamMan\SteamMan_walk.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\4 Effects\Run_dust_8x38.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\4 Effects\SteamMan_steam_14x28.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Characters\4 Effects\Walk_dust_6x24.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Attacking\Golem_01_Attacking_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Attacking\Golem_01_Attacking_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Attacking\Golem_01_Attacking_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Attacking\Golem_01_Attacking_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Attacking\Golem_01_Attacking_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Attacking\Golem_01_Attacking_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Attacking\Golem_01_Attacking_006.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Attacking\Golem_01_Attacking_007.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Attacking\Golem_01_Attacking_008.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Attacking\Golem_01_Attacking_009.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Attacking\Golem_01_Attacking_010.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Attacking\Golem_01_Attacking_011.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Dying\Golem_01_Dying_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Dying\Golem_01_Dying_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Dying\Golem_01_Dying_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Dying\Golem_01_Dying_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Dying\Golem_01_Dying_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Dying\Golem_01_Dying_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Dying\Golem_01_Dying_006.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Dying\Golem_01_Dying_007.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Dying\Golem_01_Dying_008.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Dying\Golem_01_Dying_009.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Dying\Golem_01_Dying_010.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Dying\Golem_01_Dying_011.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Dying\Golem_01_Dying_012.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Dying\Golem_01_Dying_013.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Dying\Golem_01_Dying_014.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Hurt\Golem_01_Hurt_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Hurt\Golem_01_Hurt_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Hurt\Golem_01_Hurt_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Hurt\Golem_01_Hurt_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Hurt\Golem_01_Hurt_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Hurt\Golem_01_Hurt_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Hurt\Golem_01_Hurt_006.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Hurt\Golem_01_Hurt_007.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Hurt\Golem_01_Hurt_008.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Hurt\Golem_01_Hurt_009.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Hurt\Golem_01_Hurt_010.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Hurt\Golem_01_Hurt_011.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle Blink\Golem_01_Idle Blinking_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle Blink\Golem_01_Idle Blinking_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle Blink\Golem_01_Idle Blinking_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle Blink\Golem_01_Idle Blinking_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle Blink\Golem_01_Idle Blinking_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle Blink\Golem_01_Idle Blinking_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle Blink\Golem_01_Idle Blinking_006.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle Blink\Golem_01_Idle Blinking_007.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle Blink\Golem_01_Idle Blinking_008.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle Blink\Golem_01_Idle Blinking_009.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle Blink\Golem_01_Idle Blinking_010.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle Blink\Golem_01_Idle Blinking_011.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle\Golem_01_Idle_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle\Golem_01_Idle_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle\Golem_01_Idle_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle\Golem_01_Idle_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle\Golem_01_Idle_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle\Golem_01_Idle_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle\Golem_01_Idle_006.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle\Golem_01_Idle_007.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle\Golem_01_Idle_008.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle\Golem_01_Idle_009.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle\Golem_01_Idle_010.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Idle\Golem_01_Idle_011.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Jump Loop\Golem_01_Jump Loop_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Jump Loop\Golem_01_Jump Loop_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Jump Loop\Golem_01_Jump Loop_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Jump Loop\Golem_01_Jump Loop_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Jump Loop\Golem_01_Jump Loop_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Jump Loop\Golem_01_Jump Loop_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Jump Start\Golem_01_Jump Start_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Jump Start\Golem_01_Jump Start_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Jump Start\Golem_01_Jump Start_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Jump Start\Golem_01_Jump Start_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Jump Start\Golem_01_Jump Start_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Jump Start\Golem_01_Jump Start_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Taunt\Golem_01_Taunt_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Taunt\Golem_01_Taunt_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Taunt\Golem_01_Taunt_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Taunt\Golem_01_Taunt_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Taunt\Golem_01_Taunt_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Taunt\Golem_01_Taunt_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Taunt\Golem_01_Taunt_006.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Taunt\Golem_01_Taunt_007.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Taunt\Golem_01_Taunt_008.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Taunt\Golem_01_Taunt_009.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Taunt\Golem_01_Taunt_010.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Taunt\Golem_01_Taunt_011.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Taunt\Golem_01_Taunt_012.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Taunt\Golem_01_Taunt_013.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Taunt\Golem_01_Taunt_014.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Taunt\Golem_01_Taunt_015.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Taunt\Golem_01_Taunt_016.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Taunt\Golem_01_Taunt_017.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Walking\Golem_01_Walking_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Walking\Golem_01_Walking_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Walking\Golem_01_Walking_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Walking\Golem_01_Walking_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Walking\Golem_01_Walking_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Walking\Golem_01_Walking_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Walking\Golem_01_Walking_006.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Walking\Golem_01_Walking_007.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Walking\Golem_01_Walking_008.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Walking\Golem_01_Walking_009.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Walking\Golem_01_Walking_010.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Walking\Golem_01_Walking_011.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Walking\Golem_01_Walking_012.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Walking\Golem_01_Walking_013.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Walking\Golem_01_Walking_014.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Walking\Golem_01_Walking_015.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Walking\Golem_01_Walking_016.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_01\PNG Sequences\Walking\Golem_01_Walking_017.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Attacking\Golem_02_Attacking_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Attacking\Golem_02_Attacking_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Attacking\Golem_02_Attacking_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Attacking\Golem_02_Attacking_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Attacking\Golem_02_Attacking_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Attacking\Golem_02_Attacking_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Attacking\Golem_02_Attacking_006.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Attacking\Golem_02_Attacking_007.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Attacking\Golem_02_Attacking_008.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Attacking\Golem_02_Attacking_009.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Attacking\Golem_02_Attacking_010.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Attacking\Golem_02_Attacking_011.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Dying\Golem_02_Dying_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Dying\Golem_02_Dying_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Dying\Golem_02_Dying_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Dying\Golem_02_Dying_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Dying\Golem_02_Dying_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Dying\Golem_02_Dying_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Dying\Golem_02_Dying_006.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Dying\Golem_02_Dying_007.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Dying\Golem_02_Dying_008.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Dying\Golem_02_Dying_009.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Dying\Golem_02_Dying_010.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Dying\Golem_02_Dying_011.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Dying\Golem_02_Dying_012.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Dying\Golem_02_Dying_013.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Dying\Golem_02_Dying_014.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Hurt\Golem_02_Hurt_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Hurt\Golem_02_Hurt_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Hurt\Golem_02_Hurt_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Hurt\Golem_02_Hurt_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Hurt\Golem_02_Hurt_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Hurt\Golem_02_Hurt_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Hurt\Golem_02_Hurt_006.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Hurt\Golem_02_Hurt_007.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Hurt\Golem_02_Hurt_008.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Hurt\Golem_02_Hurt_009.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Hurt\Golem_02_Hurt_010.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Hurt\Golem_02_Hurt_011.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle Blink\Golem_02_Idle Blinking_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle Blink\Golem_02_Idle Blinking_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle Blink\Golem_02_Idle Blinking_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle Blink\Golem_02_Idle Blinking_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle Blink\Golem_02_Idle Blinking_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle Blink\Golem_02_Idle Blinking_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle Blink\Golem_02_Idle Blinking_006.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle Blink\Golem_02_Idle Blinking_007.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle Blink\Golem_02_Idle Blinking_008.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle Blink\Golem_02_Idle Blinking_009.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle Blink\Golem_02_Idle Blinking_010.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle Blink\Golem_02_Idle Blinking_011.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle\Golem_02_Idle_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle\Golem_02_Idle_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle\Golem_02_Idle_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle\Golem_02_Idle_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle\Golem_02_Idle_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle\Golem_02_Idle_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle\Golem_02_Idle_006.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle\Golem_02_Idle_007.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle\Golem_02_Idle_008.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle\Golem_02_Idle_009.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle\Golem_02_Idle_010.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Idle\Golem_02_Idle_011.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Jump Loop\Golem_02_Jump Loop_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Jump Loop\Golem_02_Jump Loop_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Jump Loop\Golem_02_Jump Loop_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Jump Loop\Golem_02_Jump Loop_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Jump Loop\Golem_02_Jump Loop_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Jump Loop\Golem_02_Jump Loop_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Jump Start\Golem_02_Jump Start_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Jump Start\Golem_02_Jump Start_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Jump Start\Golem_02_Jump Start_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Jump Start\Golem_02_Jump Start_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Jump Start\Golem_02_Jump Start_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Jump Start\Golem_02_Jump Start_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Taunt\Golem_02_Taunt_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Taunt\Golem_02_Taunt_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Taunt\Golem_02_Taunt_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Taunt\Golem_02_Taunt_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Taunt\Golem_02_Taunt_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Taunt\Golem_02_Taunt_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Taunt\Golem_02_Taunt_006.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Taunt\Golem_02_Taunt_007.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Taunt\Golem_02_Taunt_008.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Taunt\Golem_02_Taunt_009.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Taunt\Golem_02_Taunt_010.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Taunt\Golem_02_Taunt_011.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Taunt\Golem_02_Taunt_012.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Taunt\Golem_02_Taunt_013.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Taunt\Golem_02_Taunt_014.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Taunt\Golem_02_Taunt_015.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Taunt\Golem_02_Taunt_016.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Taunt\Golem_02_Taunt_017.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Walking\Golem_02_Walking_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Walking\Golem_02_Walking_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Walking\Golem_02_Walking_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Walking\Golem_02_Walking_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Walking\Golem_02_Walking_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Walking\Golem_02_Walking_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Walking\Golem_02_Walking_006.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Walking\Golem_02_Walking_007.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Walking\Golem_02_Walking_008.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Walking\Golem_02_Walking_009.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Walking\Golem_02_Walking_010.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Walking\Golem_02_Walking_011.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Walking\Golem_02_Walking_012.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Walking\Golem_02_Walking_013.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Walking\Golem_02_Walking_014.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Walking\Golem_02_Walking_015.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Walking\Golem_02_Walking_016.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_02\PNG Sequences\Walking\Golem_02_Walking_017.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Attacking\Golem_03_Attacking_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Attacking\Golem_03_Attacking_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Attacking\Golem_03_Attacking_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Attacking\Golem_03_Attacking_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Attacking\Golem_03_Attacking_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Attacking\Golem_03_Attacking_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Attacking\Golem_03_Attacking_006.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Attacking\Golem_03_Attacking_007.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Attacking\Golem_03_Attacking_008.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Attacking\Golem_03_Attacking_009.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Attacking\Golem_03_Attacking_010.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Attacking\Golem_03_Attacking_011.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Dying\Golem_03_Dying_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Dying\Golem_03_Dying_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Dying\Golem_03_Dying_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Dying\Golem_03_Dying_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Dying\Golem_03_Dying_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Dying\Golem_03_Dying_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Dying\Golem_03_Dying_006.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Dying\Golem_03_Dying_007.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Dying\Golem_03_Dying_008.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Dying\Golem_03_Dying_009.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Dying\Golem_03_Dying_010.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Dying\Golem_03_Dying_011.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Dying\Golem_03_Dying_012.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Dying\Golem_03_Dying_013.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Dying\Golem_03_Dying_014.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Hurt\Golem_03_Hurt_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Hurt\Golem_03_Hurt_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Hurt\Golem_03_Hurt_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Hurt\Golem_03_Hurt_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Hurt\Golem_03_Hurt_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Hurt\Golem_03_Hurt_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Hurt\Golem_03_Hurt_006.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Hurt\Golem_03_Hurt_007.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Hurt\Golem_03_Hurt_008.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Hurt\Golem_03_Hurt_009.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Hurt\Golem_03_Hurt_010.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Hurt\Golem_03_Hurt_011.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle Blink\Golem_03_Idle Blinking_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle Blink\Golem_03_Idle Blinking_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle Blink\Golem_03_Idle Blinking_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle Blink\Golem_03_Idle Blinking_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle Blink\Golem_03_Idle Blinking_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle Blink\Golem_03_Idle Blinking_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle Blink\Golem_03_Idle Blinking_006.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle Blink\Golem_03_Idle Blinking_007.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle Blink\Golem_03_Idle Blinking_008.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle Blink\Golem_03_Idle Blinking_009.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle Blink\Golem_03_Idle Blinking_010.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle Blink\Golem_03_Idle Blinking_011.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle\Golem_03_Idle_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle\Golem_03_Idle_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle\Golem_03_Idle_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle\Golem_03_Idle_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle\Golem_03_Idle_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle\Golem_03_Idle_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle\Golem_03_Idle_006.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle\Golem_03_Idle_007.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle\Golem_03_Idle_008.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle\Golem_03_Idle_009.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle\Golem_03_Idle_010.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Idle\Golem_03_Idle_011.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Jump Loop\Golem_03_Jump Loop_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Jump Loop\Golem_03_Jump Loop_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Jump Loop\Golem_03_Jump Loop_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Jump Loop\Golem_03_Jump Loop_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Jump Loop\Golem_03_Jump Loop_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Jump Loop\Golem_03_Jump Loop_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Jump Start\Golem_03_Jump Start_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Jump Start\Golem_03_Jump Start_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Jump Start\Golem_03_Jump Start_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Jump Start\Golem_03_Jump Start_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Jump Start\Golem_03_Jump Start_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Jump Start\Golem_03_Jump Start_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Taunt\Golem_03_Taunt_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Taunt\Golem_03_Taunt_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Taunt\Golem_03_Taunt_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Taunt\Golem_03_Taunt_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Taunt\Golem_03_Taunt_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Taunt\Golem_03_Taunt_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Taunt\Golem_03_Taunt_006.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Taunt\Golem_03_Taunt_007.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Taunt\Golem_03_Taunt_008.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Taunt\Golem_03_Taunt_009.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Taunt\Golem_03_Taunt_010.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Taunt\Golem_03_Taunt_011.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Taunt\Golem_03_Taunt_012.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Taunt\Golem_03_Taunt_013.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Taunt\Golem_03_Taunt_014.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Taunt\Golem_03_Taunt_015.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Taunt\Golem_03_Taunt_016.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Taunt\Golem_03_Taunt_017.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Walking\Golem_03_Walking_000.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Walking\Golem_03_Walking_001.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Walking\Golem_03_Walking_002.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Walking\Golem_03_Walking_003.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Walking\Golem_03_Walking_004.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Walking\Golem_03_Walking_005.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Walking\Golem_03_Walking_006.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Walking\Golem_03_Walking_007.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Walking\Golem_03_Walking_008.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Walking\Golem_03_Walking_009.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Walking\Golem_03_Walking_010.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Walking\Golem_03_Walking_011.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Walking\Golem_03_Walking_012.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Walking\Golem_03_Walking_013.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Walking\Golem_03_Walking_014.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Walking\Golem_03_Walking_015.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Walking\Golem_03_Walking_016.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Walking\Golem_03_Walking_017.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Splash.xnb

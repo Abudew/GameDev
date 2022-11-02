@@ -1,6 +1,10 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Project.Controllers;
+using Project.Interfaces;
+using Project.Screens;
 
 namespace Project
 {
@@ -8,6 +12,11 @@ namespace Project
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+
+        public static int ScreenWidth;
+        public static int ScreenHeight;
+
+        private ScreenController _screenController;
 
         public Game1()
         {
@@ -18,7 +27,10 @@ namespace Project
 
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
+            ScreenWidth = _graphics.PreferredBackBufferWidth;
+            ScreenHeight = _graphics.PreferredBackBufferHeight;
+
+
 
             base.Initialize();
         }
@@ -27,7 +39,18 @@ namespace Project
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // TODO: use this.Content to load your game content here
+            var splashImage = Content.Load<Texture2D>("Splash");
+            //var soundEffect = Content.Load<SoundEffect>("");
+
+            //soundEffect.Play();
+
+            _screenController = new ScreenController(new IScreen[]
+            {
+                new SplashScreen(splashImage)
+            });
+
+            _screenController.SetScreen(ScreenType.Splash);
+            _screenController.SwitchToNextScreen();
         }
 
         protected override void Update(GameTime gameTime)
@@ -35,7 +58,8 @@ namespace Project
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            // TODO: Add your update logic here
+            var delta = (float)(gameTime.ElapsedGameTime.TotalMilliseconds / 1000f);
+            _screenController.Update(delta);
 
             base.Update(gameTime);
         }
@@ -44,7 +68,7 @@ namespace Project
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            // TODO: Add your drawing code here
+            _screenController.Draw(_spriteBatch);
 
             base.Draw(gameTime);
         }
