@@ -10,6 +10,9 @@ namespace Project.Controllers
     {
         Splash,
         Menu,
+        MainMenu,
+        New,
+        Load,
         Game
     }
 }

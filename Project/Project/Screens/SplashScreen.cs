@@ -13,7 +13,6 @@ namespace Project.Screens
     internal class SplashScreen : IScreen
     {
         private readonly Texture2D _splashImage;
-        
 
         public SplashScreen(Texture2D splash)
         {
@@ -35,6 +34,7 @@ namespace Project.Screens
 
         public void Update(float delta)
         {
+
             
         }
     }

@@ -6,13 +6,19 @@ namespace Project.Controllers
 {
     internal class ScreenController
     {
-        private IReadOnlyCollection<IScreen> _screens;
+        public IReadOnlyCollection<IScreen> _screens;
         private IScreen _activeScreen;
         private IScreen _nextScreen;
 
         public ScreenController(IReadOnlyCollection<IScreen> screens)
         {
             _screens = screens;
+        }
+
+        public void SwitchScreen(ScreenType screen)
+        {
+            SetScreen(screen);
+            SwitchToNextScreen();
         }
 
         public void SetScreen(ScreenType screentype)
@@ -27,7 +33,7 @@ namespace Project.Controllers
             }
         }
 
-        public void SwitchToNextScreen()
+        public ScreenType SwitchToNextScreen()
         {
             if (_nextScreen != null)
             {
@@ -35,6 +41,7 @@ namespace Project.Controllers
             }
 
             _nextScreen = null;
+            return _activeScreen.ScreenType;
         }
 
         public void Draw(SpriteBatch spriteBatch)
