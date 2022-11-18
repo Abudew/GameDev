@@ -16,8 +16,10 @@ namespace Project
         public static int ScreenWidth;
         public static int ScreenHeight;
 
+        public Texture2D[] woodcutters { get; set; }
+
         public bool isSwitch { get; set; } = false;
-        public ScreenType screenFromMain { get; set; }
+        public ScreenType screenSelection { get; set; }
 
         private float timer = 3;
 
@@ -47,24 +49,29 @@ namespace Project
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
             var splashImage = Content.Load<Texture2D>("Splash");
-            var exitButton = Content.Load<Texture2D>("Exit");
-            var exitButtonHover = Content.Load<Texture2D>("ExitHover");
-            var newButton = Content.Load<Texture2D>("LoadGame");
-            var newButtonHover = Content.Load<Texture2D>("LoadGameHover");
-            var loadButton = Content.Load<Texture2D>("NewGame");
-            var loadButtonHover = Content.Load<Texture2D>("NewGameHover");
+            var button = Content.Load<Texture2D>("Button");
+            var buttonHover = Content.Load<Texture2D>("ButtonHover");
+            var buttonFont = Content.Load<SpriteFont>("Font");
+
+            Texture2D woodcutter = Content.Load<Texture2D>("Characters/1 Woodcutter/Woodcutter_idle");
+            Texture2D woodcutterRun = Content.Load<Texture2D>("Characters/1 Woodcutter/Woodcutter_run");
+
+            woodcutters = new Texture2D[]{
+                woodcutter,
+                woodcutterRun
+            };
+
             //var soundEffect = Content.Load<SoundEffect>("burp");
 
             //soundEffect.Play();
 
-            _screenController = new ScreenController(new IScreen[]
+            _screenController = new ScreenController(new IGameObject[]
             {
                 new SplashScreen(splashImage),
                 new MenuScreen(),
-                new NewScreen(),
                 new LoadScreen(),
-                new GameScreen(),
-                new MainMenuScreen(exitButton, exitButtonHover, newButton, newButtonHover, loadButton, loadButtonHover, this)
+                new GameScreen(woodcutters[0], woodcutters[1], new MovementController(), this),
+                new MainMenuScreen(button, buttonHover, buttonFont,this)
             });
 
             _screenController.SwitchScreen(ScreenType.Splash);
@@ -82,7 +89,7 @@ namespace Project
             };
 
             var delta = (float)(gameTime.ElapsedGameTime.TotalMilliseconds / 1000f);
-            _screenController.Update(delta);
+            
 
             timer -= delta;
             if (timer <= 0)
@@ -92,17 +99,21 @@ namespace Project
 
             if (isSwitch)
             {
-                _screenController.SwitchScreen(screenFromMain);
+                _screenController.SwitchScreen(screenSelection);
             }
+
+            _screenController.Update(delta, gameTime);
 
             base.Update(gameTime);
         }
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Gray);
 
+            _spriteBatch.Begin();
             _screenController.Draw(_spriteBatch);
+            _spriteBatch.End();
 
             base.Draw(gameTime);
         }

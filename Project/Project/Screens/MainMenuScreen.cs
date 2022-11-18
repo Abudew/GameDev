@@ -12,31 +12,41 @@ using System.Diagnostics;
 
 namespace Project.Screens
 {
-    internal class MainMenuScreen : IScreen
+    internal class MainMenuScreen : IGameObject
     {
-        private readonly Texture2D _exit;
-        private readonly Texture2D _exitHover;
-        private Texture2D _exitHovered;
-        private readonly Texture2D _newGame;
-        private Texture2D _newGameHover;
-        private Texture2D _newGameHovered;
-        private readonly Texture2D _loadGame;
-        private Texture2D _loadGameHover;
-        private Texture2D _loadGameHovered;
+        private readonly Texture2D _exitButton;
+        private readonly Texture2D _exitButtonHover;
+        private Texture2D _exitButtonHovered;
+
+        private readonly Texture2D _loadButton;
+        private readonly Texture2D _loadButtonHover;
+        private Texture2D _loadButtonHovered;
+
+        private readonly Texture2D _newButton;
+        private readonly Texture2D _newButtonHover;
+        private Texture2D _newButtonHovered;
+
+        private readonly SpriteFont _font;
+
         private Vector2 exitVector;
         private Game1 _game;
 
-        public MainMenuScreen(Texture2D exit, Texture2D exitHover, Texture2D newGame, Texture2D newGameHover, Texture2D loadGame, Texture2D loadGameHover, Game1 game)
+        public MainMenuScreen(Texture2D button, Texture2D buttonHover, SpriteFont font, Game1 game)
         {
-            _exit = exit;
-            _exitHover = exitHover;
-            _newGame = newGame;
-            _newGameHover = newGameHover;
-            _loadGame = loadGame;
-            _loadGameHover = loadGameHover;
-            _loadGameHovered = _loadGame;
-            _newGameHovered = _newGame;
-            _exitHovered = _exit;
+            _exitButton = button;
+            _exitButtonHover = buttonHover; 
+            _exitButtonHovered = button;
+
+            _newButton = button;
+            _newButtonHover = buttonHover;
+            _newButtonHovered = button;
+
+            _loadButton = button;
+            _loadButtonHover = buttonHover;
+            _loadButtonHovered = button;
+
+            _font = font;
+
             _game = game; 
         }
 
@@ -45,38 +55,39 @@ namespace Project.Screens
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Begin();
             spriteBatch.Draw(
-                _newGameHovered,
-                new Vector2(exitVector.X, exitVector.Y-432),
+                _newButtonHovered,
+                new Vector2(exitVector.X, exitVector.Y-400),
                 Color.White
             );
+            spriteBatch.DrawString(_font, "New Game", new Vector2(exitVector.X + 115, exitVector.Y - 385), Color.Black);
             spriteBatch.Draw(
-                _loadGameHovered,
-                new Vector2(exitVector.X, exitVector.Y-216),
+                _loadButtonHovered,
+                new Vector2(exitVector.X, exitVector.Y-300),
                 Color.White
             );
+            spriteBatch.DrawString(_font, "Load Game", new Vector2(exitVector.X + 115, exitVector.Y - 285), Color.Black);
             spriteBatch.Draw(
-                _exitHovered,
+                _exitButtonHovered,
                 exitVector,
                 Color.White
             );
-            spriteBatch.End();
+            spriteBatch.DrawString(_font, "Exit Game", new Vector2(exitVector.X + 115, exitVector.Y + 15), Color.Black);
         }
 
-        public void Update(float delta)
+        public void Update(float delta, GameTime gameTime)
         {
-            exitVector = new Vector2((Game1.ScreenWidth / 2) - 240, Game1.ScreenHeight - 228);
+            exitVector = new Vector2((Game1.ScreenWidth / 2) - 150, Game1.ScreenHeight-150);
             var mouseState = Mouse.GetState();
             var mousePoint = new Point(mouseState.X, mouseState.Y);
-            var exitButton = new Rectangle((int)exitVector.X, (int)exitVector.Y, this._exit.Width, this._exit.Height);
-            var loadButton = new Rectangle((int)exitVector.X, (int)(exitVector.Y-216), this._loadGame.Width, this._loadGame.Height);
-            var newButton = new Rectangle((int)exitVector.X, (int)(exitVector.Y-432), this._newGame.Width, this._newGame.Height);
+            var exitButton = new Rectangle((int)exitVector.X, (int)exitVector.Y, this._exitButton.Width, this._exitButton.Height);
+            var loadButton = new Rectangle((int)exitVector.X, (int)(exitVector.Y-300), this._exitButton.Width, this._exitButton.Height);
+            var newButton = new Rectangle((int)exitVector.X, (int)(exitVector.Y-400), this._exitButton.Width, this._exitButton.Height);
             var isClicked = mouseState.LeftButton;
 
             if (exitButton.Contains(mousePoint))
             {
-                _exitHovered = _exitHover;
+                _exitButtonHovered = _exitButtonHover;
                 if (isClicked == ButtonState.Pressed)
                 {
                     _game.Exit();
@@ -84,27 +95,27 @@ namespace Project.Screens
             }
             else if (newButton.Contains(mousePoint))
             {
-                _newGameHovered = _newGameHover;
+                _newButtonHovered = _newButtonHover;
                 if (isClicked == ButtonState.Pressed)
                 {
                     _game.isSwitch = true;
-                    _game.screenFromMain = ScreenType.New;
+                    _game.screenSelection = ScreenType.Game;
                 }
             }
             else if (loadButton.Contains(mousePoint))
             {
-                _loadGameHovered = _loadGameHover;
+                _loadButtonHovered = _loadButtonHover;
                 if (isClicked == ButtonState.Pressed)
                 {
                     _game.isSwitch = true;
-                    _game.screenFromMain = ScreenType.Load;
+                    _game.screenSelection = ScreenType.Load;
                 }
             }
             else
             {
-                _exitHovered = _exit;
-                _loadGameHovered = _loadGame;
-                _newGameHovered = _newGame;
+                _exitButtonHovered = _exitButton;
+                _loadButtonHovered = _loadButton;
+                _newButtonHovered = _newButton;
                 _game.isSwitch = false;
             }
         }

@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework.Graphics;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using Project.Interfaces;
 using System.Collections.Generic;
 
@@ -6,11 +7,11 @@ namespace Project.Controllers
 {
     internal class ScreenController
     {
-        public IReadOnlyCollection<IScreen> _screens;
-        private IScreen _activeScreen;
-        private IScreen _nextScreen;
+        public IReadOnlyCollection<IGameObject> _screens;
+        private IGameObject _activeScreen;
+        private IGameObject _nextScreen;
 
-        public ScreenController(IReadOnlyCollection<IScreen> screens)
+        public ScreenController(IReadOnlyCollection<IGameObject> screens)
         {
             _screens = screens;
         }
@@ -49,9 +50,9 @@ namespace Project.Controllers
             _activeScreen?.Draw(spriteBatch);
         }
 
-        public void Update(float delta)
+        public void Update(float delta, GameTime gameTime)
         {
-            _activeScreen?.Update(delta);
+            _activeScreen?.Update(delta, gameTime);
         }
     }
 }

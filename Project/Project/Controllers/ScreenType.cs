@@ -8,6 +8,7 @@ namespace Project.Controllers
 {
     public enum ScreenType
     {
+        None,
         Splash,
         Menu,
         MainMenu,

@@ -399,9 +399,7 @@ F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG 
 F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Walking\Golem_03_Walking_016.xnb
 F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Golems\Golem_03\PNG Sequences\Walking\Golem_03_Walking_017.xnb
 F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Splash.xnb
-F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Exit.xnb
-F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\ExitHover.xnb
-F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\LoadGame.xnb
-F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\LoadGameHover.xnb
-F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\NewGame.xnb
-F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\NewGameHover.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Background.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Button.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\ButtonHover.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\Font.xnb

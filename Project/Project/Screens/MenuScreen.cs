@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Project.Screens
 { 
-    internal class MenuScreen : IScreen
+    internal class MenuScreen : IGameObject
     {
         public ScreenType ScreenType => ScreenType.Menu;
 
@@ -19,7 +19,7 @@ namespace Project.Screens
 
         }
 
-        public void Update(float delta)
+        public void Update(float delta, GameTime gameTime)
         {
 
         }

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Project.Screens
 {
-    internal class SplashScreen : IScreen
+    internal class SplashScreen : IGameObject
     {
         private readonly Texture2D _splashImage;
 
@@ -23,16 +23,14 @@ namespace Project.Screens
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Begin();
             spriteBatch.Draw(
                 _splashImage,
                 new Rectangle(0, 0, Game1.ScreenWidth, Game1.ScreenHeight),
                 Color.White
             );
-            spriteBatch.End();
         }
 
-        public void Update(float delta)
+        public void Update(float delta, GameTime gameTime)
         {
 
             

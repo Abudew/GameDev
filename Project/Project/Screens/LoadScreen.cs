@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Project.Screens
 {
-    internal class LoadScreen : IScreen
+    internal class LoadScreen : IGameObject
     {
         public ScreenType ScreenType => ScreenType.Load;
 
@@ -20,7 +20,7 @@ namespace Project.Screens
 
         }
 
-        public void Update(float delta)
+        public void Update(float delta, GameTime gameTime)
         {
             
         }
