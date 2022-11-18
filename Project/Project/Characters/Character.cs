@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
+using System.Threading.Tasks.Sources;
 
 namespace Project
 {
@@ -14,6 +15,7 @@ namespace Project
     {
         private Texture2D _character;
         private Texture2D _characterRun;
+        public Texture2D selected { get; set; }
         private Animation animation;
         private Animation animationRun;
         private Vector2 _direction;
@@ -23,6 +25,7 @@ namespace Project
         private MovementController _movementController;
         private float rotation;
 
+        public IMovable move { get => this; }
         public bool isLeft { get; set; } = true;
 
         public Character(Texture2D character, Texture2D characterRun, IInputReader inputReader, MovementController movementController)
@@ -52,7 +55,8 @@ namespace Project
             Debug.WriteLine(animation.CurrentFrame.SourceRectangle);
             if (_movementController.rDir.X == 0)
             {
-                spriteBatch.Draw(_character, _position, animation.CurrentFrame.SourceRectangle, Color.White, rotation, new Vector2(0, 0), 1f, _movementController.s, 0f);
+                selected = _character;
+                spriteBatch.Draw(selected, _position, animation.CurrentFrame.SourceRectangle, Color.White, rotation, new Vector2(0, 0), 1f, _movementController.s, 0f);
                 if(_movementController.s == SpriteEffects.FlipHorizontally)
                 {
                     isLeft = false;
@@ -64,7 +68,8 @@ namespace Project
             }
             if (_movementController.rDir.X != 0)
             {
-                spriteBatch.Draw(_characterRun, _position, animationRun.CurrentFrame.SourceRectangle, Color.White, rotation, new Vector2(0, 0), 1f, _movementController.s, 0f);
+                selected = _characterRun;
+                spriteBatch.Draw(selected, _position, animationRun.CurrentFrame.SourceRectangle, Color.White, rotation, new Vector2(0, 0), 1f, _movementController.s, 0f);
                 if (_movementController.s == SpriteEffects.FlipHorizontally)
                 {
                     isLeft = false;

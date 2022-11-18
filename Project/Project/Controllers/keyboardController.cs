@@ -10,16 +10,23 @@ namespace Project.Controllers
 {
     class KeyboardController : IInputReader
     {
+        private Collision c;
+
+        public KeyboardController(Collision collision)
+        {
+            c = collision;
+        }
+
         public Vector2 ReadInput()
         {
             Vector2 direction = Vector2.Zero;
             KeyboardState state = Keyboard.GetState();
 
-            if (state.IsKeyDown(Keys.A))
+            if (state.IsKeyDown(Keys.A) && !c.isCollidedRight)
             {
                 direction.X = -1;
             }
-            else if (state.IsKeyDown(Keys.D))
+            else if (state.IsKeyDown(Keys.D) && !c.isCollidedLeft)
             {
                 direction.X = 1;
             }
@@ -31,7 +38,7 @@ namespace Project.Controllers
             {
                 direction.X = 2;
             }
-            if (state.IsKeyDown(Keys.W))
+            if (state.IsKeyDown(Keys.W) && !c.isCollidedBottom)
             {
                 direction.Y = -1;
             }

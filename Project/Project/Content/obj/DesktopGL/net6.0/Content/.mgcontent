@@ -1,1 +1,770 @@
-<?xml version="1.0" encoding="utf-8"?><SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Profile>Reach</Profile><Platform>DesktopGL</Platform><Config /><SourceFiles><File>F:/Desktop/GameDev/Project/Project/Content/Background.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Button.png</File><File>F:/Desktop/GameDev/Project/Project/Content/ButtonHover.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_attack1.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_attack2.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_attack3.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_climb.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_craft.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_death.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_hurt.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_idle.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_jump.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_push.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_run.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_walk.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_attack1.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_attack2.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_attack3.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_climb.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_craft.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_death.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_hurt.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_idle.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_jump.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_push.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_run.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_walk.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_attack1.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_attack2.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_attack3.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_climb.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_craft.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_death.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_hurt.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_idle.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_jump.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_push.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_run.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_walk.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/4 Effects/Run_dust_8x38.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/4 Effects/SteamMan_steam_14x28.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Characters/4 Effects/Walk_dust_6x24.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Font.spritefont</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_006.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_007.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_008.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_009.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_010.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_011.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_006.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_007.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_008.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_009.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_010.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_011.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_012.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_013.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_014.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_006.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_007.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_008.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_009.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_010.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_011.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_006.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_007.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_008.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_009.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_010.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_011.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_006.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_007.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_008.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_009.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_010.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_011.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_006.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_007.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_008.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_009.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_010.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_011.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_012.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_013.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_014.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_015.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_016.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_017.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_006.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_007.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_008.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_009.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_010.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_011.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_012.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_013.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_014.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_015.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_016.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_017.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_006.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_007.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_008.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_009.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_010.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_011.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_006.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_007.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_008.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_009.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_010.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_011.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_012.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_013.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_014.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_006.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_007.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_008.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_009.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_010.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_011.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_006.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_007.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_008.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_009.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_010.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_011.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_006.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_007.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_008.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_009.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_010.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_011.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_006.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_007.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_008.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_009.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_010.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_011.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_012.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_013.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_014.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_015.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_016.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_017.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_006.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_007.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_008.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_009.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_010.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_011.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_012.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_013.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_014.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_015.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_016.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_017.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_006.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_007.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_008.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_009.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_010.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_011.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_006.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_007.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_008.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_009.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_010.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_011.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_012.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_013.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_014.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_006.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_007.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_008.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_009.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_010.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_011.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_006.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_007.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_008.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_009.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_010.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_011.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_006.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_007.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_008.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_009.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_010.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_011.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_006.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_007.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_008.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_009.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_010.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_011.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_012.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_013.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_014.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_015.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_016.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_017.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_000.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_001.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_002.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_003.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_004.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_005.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_006.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_007.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_008.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_009.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_010.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_011.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_012.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_013.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_014.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_015.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_016.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_017.png</File><File>F:/Desktop/GameDev/Project/Project/Content/Splash.png</File></SourceFiles><DestFiles><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /><File xsi:nil="true" /></DestFiles></SourceFileCollection>
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Background.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Button.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/ButtonHover.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_attack1.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_attack2.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_attack3.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_climb.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_craft.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_death.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_hurt.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_idle.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_jump.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_push.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_run.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter_walk.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/1 Woodcutter/Woodcutter.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_attack1.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_attack2.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_attack3.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_climb.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_craft.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_death.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_hurt.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_idle.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_jump.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_push.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_run.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber_walk.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/2 GraveRobber/GraveRobber.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_attack1.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_attack2.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_attack3.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_climb.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_craft.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_death.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_hurt.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_idle.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_jump.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_push.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_run.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan_walk.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/3 SteamMan/SteamMan.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/4 Effects/Run_dust_8x38.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/4 Effects/SteamMan_steam_14x28.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Characters/4 Effects/Walk_dust_6x24.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Font.spritefont</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_006.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_007.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_008.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_009.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_010.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_011.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_006.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_007.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_008.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_009.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_010.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_011.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_012.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_013.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_014.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_006.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_007.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_008.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_009.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_010.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_011.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_006.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_007.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_008.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_009.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_010.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_011.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_006.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_007.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_008.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_009.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_010.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_011.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_006.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_007.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_008.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_009.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_010.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_011.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_012.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_013.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_014.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_015.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_016.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_017.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_006.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_007.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_008.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_009.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_010.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_011.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_012.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_013.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_014.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_015.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_016.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_017.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_006.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_007.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_008.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_009.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_010.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_011.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_006.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_007.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_008.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_009.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_010.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_011.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_012.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_013.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_014.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_006.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_007.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_008.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_009.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_010.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_011.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_006.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_007.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_008.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_009.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_010.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_011.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_006.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_007.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_008.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_009.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_010.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_011.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_006.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_007.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_008.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_009.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_010.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_011.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_012.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_013.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_014.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_015.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_016.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_017.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_006.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_007.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_008.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_009.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_010.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_011.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_012.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_013.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_014.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_015.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_016.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_017.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_006.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_007.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_008.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_009.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_010.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_011.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_006.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_007.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_008.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_009.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_010.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_011.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_012.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_013.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_014.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_006.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_007.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_008.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_009.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_010.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_011.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_006.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_007.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_008.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_009.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_010.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_011.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_006.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_007.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_008.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_009.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_010.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_011.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_006.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_007.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_008.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_009.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_010.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_011.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_012.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_013.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_014.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_015.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_016.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_017.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_000.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_001.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_002.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_003.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_004.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_005.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_006.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_007.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_008.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_009.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_010.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_011.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_012.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_013.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_014.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_015.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_016.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_017.png</File>
+    <File>C:/Users/User/Desktop/Labo 1.2/GameDev/Project/Project/Content/Splash.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

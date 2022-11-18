@@ -70,7 +70,7 @@ namespace Project
                 new SplashScreen(splashImage),
                 new MenuScreen(),
                 new LoadScreen(),
-                new GameScreen(woodcutters[0], woodcutters[1], new MovementController(), this),
+                new GameScreen(woodcutters[0], woodcutters[1], this),
                 new MainMenuScreen(button, buttonHover, buttonFont,this)
             });
 
