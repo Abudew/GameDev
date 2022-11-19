@@ -13,8 +13,8 @@ namespace Project
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
-        public static int ScreenWidth;
-        public static int ScreenHeight;
+        public static int ScreenWidth { get; set; }
+        public static int ScreenHeight { get; set; }
 
         public Texture2D[] woodcutters { get; set; }
 
@@ -34,6 +34,8 @@ namespace Project
 
         protected override void Initialize()
         {
+            //_graphics.PreferredBackBufferWidth = 1920;
+            //_graphics.PreferredBackBufferHeight = 1080;
             _graphics.PreferredBackBufferWidth = 1280;
             _graphics.PreferredBackBufferHeight = 720;
             ScreenWidth = _graphics.PreferredBackBufferWidth;
@@ -62,7 +64,6 @@ namespace Project
             };
 
             //var soundEffect = Content.Load<SoundEffect>("burp");
-
             //soundEffect.Play();
 
             _screenController = new ScreenController(new IGameObject[]

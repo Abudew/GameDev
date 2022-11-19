@@ -18,13 +18,15 @@ namespace Project.Controllers
         private bool isGrounded = true;
         private bool isGoingUp = false;
         private float beginPos = 0;
-        public void Move(IMovable movable)
+
+        public void Move(IMovable movable, Collision collision, List<Rectangle> blockTexture, Game1 game)
         {
             var direction = movable.InputReader.ReadInput();
             KeyboardState state = Keyboard.GetState();
             var speed = movable.Speed;
             var position = movable.Position;
 
+            #region move
             if (direction.X < 0)
             {
                 s = SpriteEffects.FlipHorizontally;
@@ -49,8 +51,11 @@ namespace Project.Controllers
                     s = SpriteEffects.FlipHorizontally;
                 }
             }
+            #endregion
 
-            if (direction.Y < 0 && isGrounded && !isJump)
+            #region jump
+
+            if (direction.Y <= 0 && isGrounded && !isJump)
             {
                 isJump = true;
                 isGrounded = false;
@@ -65,21 +70,38 @@ namespace Project.Controllers
                 isGoingUp = false;
             }
 
-            if (state.IsKeyUp(Keys.W) && isGoingUp && isJump && !isGrounded && position.Y < 300)
+            if (state.IsKeyUp(Keys.W) && isGoingUp && isJump && !isGrounded && position.Y < game.GraphicsDevice.Viewport.Height)
             {
                 direction.Y = 1;
             }
 
-            if (!isGoingUp && position.Y < 300)
+            if (!isGoingUp && position.Y < game.GraphicsDevice.Viewport.Height)
             {
                 direction.Y = 1;
             }
 
-            if (isJump && !isGoingUp && position.Y == 300)
+            if (isJump && !isGoingUp && direction.Y == 0)
             {
                 isJump = false;
                 isGrounded = true;
             }
+            #endregion
+
+            #region colisionDetection
+            foreach (var block in blockTexture)
+            {
+                if (direction.X > 0 && collision.isTouchingLeft(block) || direction.X < 0 && collision.isTouchingRight(block))
+                {
+                    direction.X = 0;
+                }
+                if (direction.Y > 0 && collision.isTouchingTop(block) || direction.Y < 0 && collision.isTouchingBottom(block))
+                {
+                    direction.Y = 0;
+                    isJump = false;
+                    isGrounded = true;
+                }
+            }
+            #endregion
 
             var afstand = direction * movable.Speed;
             movable.Position += afstand;

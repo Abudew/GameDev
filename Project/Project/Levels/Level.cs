@@ -4,6 +4,8 @@ using Project.Controllers;
 using Project.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,36 +18,75 @@ namespace Project.Levels
     {
         private Texture2D blockTexture;
         private Game1 _game;
-
-        int[,] gameboard = new int[,]
+        private bool hasRun = false;
+        private int X = 0;
+        private int Y = 0;
+        private static int[,] gameboard = new int[,]
         {
-            { 0,0,0,0,0,0,0,0 },
-            { 0,0,0,0,0,0,0,0 },
-            { 0,0,0,0,0,0,0,0 },
-            { 0,0,0,0,0,0,0,0 },
-            { 0,0,0,0,0,0,0,0 },
-            { 1,0,0,0,0,0,0,1 },
-            { 1,0,0,0,0,0,0,1 },
-            { 1,1,1,1,1,1,1,1 }
+            { 1,1,1,1,1,1,1,1,1 },
+            { 1,0,0,0,0,0,0,0,1 },
+            { 1,0,0,0,0,0,0,0,1 },
+            { 1,0,0,0,0,0,0,0,1 },
+            { 1,0,0,0,0,0,0,0,1 },
+            { 1,0,0,0,0,0,0,0,1 },
+            { 1,0,0,0,0,0,0,0,1 },
+            { 1,0,0,0,0,0,0,0,1 },
+            { 1,0,0,0,0,0,0,0,1 },
+            { 1,0,0,0,0,0,0,0,1 },
+            { 1,0,0,0,0,0,0,0,1 },
+            { 1,0,0,0,0,0,0,0,1 },
+            { 1,0,0,0,0,0,0,0,1 },
+            { 1,0,0,0,0,0,0,0,1 },
+            { 1,0,0,0,0,0,0,0,1 },
+            { 1,1,1,1,1,1,1,1,1 }
         };
+
+        public List<Block> blocks = new List<Block>();
+        public BlockFactory blockFactory = new BlockFactory();
 
         public Level(Game1 game)
         {
             _game = game;
             blockTexture = new Texture2D(_game.GraphicsDevice, 1, 1);
-            blockTexture.SetData(new[] { Color.White });
+            blockTexture.SetData(new[] { Color.Black });
         }
 
         public ScreenType ScreenType => ScreenType.None;
 
         public void Draw(SpriteBatch spriteBatch)
         {
-
+            createBlocks();
+            foreach (var b in blocks)
+            {
+                if (b != null)
+                {
+                    b.Draw(spriteBatch);
+                }
+            }
         }
 
         public void Update(float delta, GameTime gameTime)
         {
 
+        }
+        private void createBlocks()
+        {
+            while (hasRun == false)
+            {
+                for (int i = 0; i < gameboard.GetLength(0); i++)
+                {
+                    for (int j = 0; j < gameboard.GetLength(1); j++)
+                    {
+                        if (gameboard[i, j] == 1)
+                        {
+                            Y = j * (_game.GraphicsDevice.Viewport.Height / 9);
+                            X = i * (_game.GraphicsDevice.Viewport.Width / 16);
+                            blocks.Add(blockFactory.CreateBlock("NORMAL", X, Y, _game.GraphicsDevice));
+                        }
+                    }
+                }
+                hasRun = true;
+            }
         }
     }
 }
