@@ -808,3 +808,7 @@ C:\Users\User\Desktop\Labo 1.2\GameDev\Project\Project\bin\Debug\net6.0\runtimes
 C:\Users\User\Desktop\Labo 1.2\GameDev\Project\Project\obj\Debug\net6.0\Project.csproj.CopyComplete
 C:\Users\User\Desktop\Labo 1.2\GameDev\Project\Project\obj\Debug\net6.0\Project.genruntimeconfig.cache
 C:\Users\User\Desktop\Labo 1.2\GameDev\Project\Project\obj\Debug\net6.0\ref\Project.dll
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\game_background_4.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\game_background_1.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\game_background_2.xnb
+F:\Desktop\GameDev\Project\Project\bin\Debug\net6.0\Content\game_background_3. 2.xnb

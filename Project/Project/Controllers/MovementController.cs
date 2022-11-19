@@ -65,13 +65,15 @@ namespace Project.Controllers
                 direction.Y = -1;
             }
 
-            if (beginPos - position.Y >= 100 && isGoingUp)
+            if (beginPos - position.Y >= 200 && isGoingUp)
             {
                 isGoingUp = false;
             }
 
             if (state.IsKeyUp(Keys.W) && isGoingUp && isJump && !isGrounded && position.Y < game.GraphicsDevice.Viewport.Height)
             {
+                isJump = false;
+                isGoingUp = false;
                 direction.Y = 1;
             }
 
@@ -94,11 +96,18 @@ namespace Project.Controllers
                 {
                     direction.X = 0;
                 }
-                if (direction.Y > 0 && collision.isTouchingTop(block) || direction.Y < 0 && collision.isTouchingBottom(block))
+                if (direction.Y > 0 && collision.isTouchingTop(block))
                 {
                     direction.Y = 0;
                     isJump = false;
+                    isGoingUp = false;
                     isGrounded = true;
+                }
+                if (direction.Y < 0 && collision.isTouchingBottom(block) && isGoingUp)
+                {
+                    direction.Y = 0;
+                    isJump = false;
+                    isGoingUp = false;
                 }
             }
             #endregion

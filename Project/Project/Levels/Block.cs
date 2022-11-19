@@ -25,7 +25,7 @@ namespace Project.Levels
         {
             box = new Rectangle(x, y, graphics.Viewport.Width / 16, graphics.Viewport.Height / 9);
             Passable = false;
-            Color = Color.Green;
+            Color = Color.Black;
             Texture = new Texture2D(graphics, 1, 1);
             Texture.SetData(new[] { Color.White });
         }

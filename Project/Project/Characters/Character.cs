@@ -39,14 +39,14 @@ namespace Project
 
         public Character(Texture2D character, Texture2D characterRun, IInputReader inputReader, MovementController movementController, List<Block> blocks, Game1 game)
         {
+            _game = game;
             _character = character;
             _characterRun = characterRun;
             InputReader = inputReader;
             _movementController = movementController;
             _direction = inputReader.ReadInput();
             _position = new Vector2(80, 300);
-            _speed = new Vector2(5, 8f);
-            _game = game;
+            _speed = new Vector2(5, 10);
             blockTexture = new Texture2D(_game.GraphicsDevice, 1, 1);
             blockTexture.SetData(new[] { Color.White });
             _boundingBox = new Boundingbox((int)Position.X, (int)Position.Y, 24, 32, blockTexture, this);
@@ -99,8 +99,7 @@ namespace Project
 
         public void Update(float delta, GameTime gameTime)
         {
-            _boundingBox.Update((int)Position.X, (int)Position.Y);
-            collision.Update(_boundingBox._box, Speed);
+            
             Move();
             if (_movementController.rDir.X == 0)
             {
@@ -110,6 +109,8 @@ namespace Project
             {
                 animationRun.Update(gameTime);
             }
+            _boundingBox.Update((int)Position.X, (int)Position.Y);
+            collision.Update(_boundingBox._box, Speed);
         }
 
         private void Move()

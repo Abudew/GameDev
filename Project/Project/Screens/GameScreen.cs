@@ -33,6 +33,7 @@ namespace Project.Screens
         }
         public void Draw(SpriteBatch spriteBatch)
         {
+            spriteBatch.Draw(_game.backGround[1], new Rectangle(0, 0, _game.GraphicsDevice.Viewport.Width, _game.GraphicsDevice.Viewport.Height), Color.White);
             level.Draw(spriteBatch);
             _character.Draw(spriteBatch);
         }

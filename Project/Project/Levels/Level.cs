@@ -23,22 +23,24 @@ namespace Project.Levels
         private int Y = 0;
         private static int[,] gameboard = new int[,]
         {
-            { 1,1,1,1,1,1,1,1,1 },
-            { 1,0,0,0,0,0,0,0,1 },
-            { 1,0,0,0,0,0,0,0,1 },
-            { 1,0,0,0,0,0,0,0,1 },
-            { 1,0,0,0,0,0,0,0,1 },
-            { 1,0,0,0,0,0,0,0,1 },
-            { 1,0,0,0,0,0,0,0,1 },
-            { 1,0,0,0,0,0,0,0,1 },
-            { 1,0,0,0,0,0,0,0,1 },
-            { 1,0,0,0,0,0,0,0,1 },
-            { 1,0,0,0,0,0,0,0,1 },
-            { 1,0,0,0,0,0,0,0,1 },
-            { 1,0,0,0,0,0,0,0,1 },
-            { 1,0,0,0,0,0,0,0,1 },
-            { 1,0,0,0,0,0,0,0,1 },
-            { 1,1,1,1,1,1,1,1,1 }
+            { 1,1,1,1,1,1,1,1,1,1,1 },
+            { 1,0,0,0,0,0,0,0,0,0,1 },
+            { 1,0,0,0,0,0,0,0,0,0,1 },
+            { 1,0,0,0,0,0,0,0,0,0,1 },
+            { 1,0,0,0,0,1,0,0,1,0,1 },
+            { 1,0,0,0,0,1,0,0,1,0,1 },
+            { 1,0,0,0,0,1,0,0,1,0,1 },
+            { 1,0,0,0,0,0,0,0,0,0,1 },
+            { 1,0,0,0,1,0,0,1,0,0,1 },
+            { 1,0,0,0,0,0,0,1,0,0,1 },
+            { 1,0,0,1,0,0,0,1,0,0,1 },
+            { 1,0,0,0,0,0,0,0,0,0,1 },
+            { 1,0,1,0,0,0,0,0,0,0,1 },
+            { 1,0,1,0,0,0,0,0,0,0,1 },
+            { 1,0,1,0,0,0,0,0,0,0,1 },
+            { 1,0,1,0,0,0,0,0,0,0,1 },
+            { 1,0,1,0,0,0,0,0,0,0,1 },
+            { 1,1,1,1,1,1,1,1,1,1,1 },
         };
 
         public List<Block> blocks = new List<Block>();
@@ -49,6 +51,9 @@ namespace Project.Levels
             _game = game;
             blockTexture = new Texture2D(_game.GraphicsDevice, 1, 1);
             blockTexture.SetData(new[] { Color.Black });
+
+            //X = -(_game.GraphicsDevice.Viewport.Width / 16);
+            //Y = -(_game.GraphicsDevice.Viewport.Height / 9);
         }
 
         public ScreenType ScreenType => ScreenType.None;
@@ -81,7 +86,8 @@ namespace Project.Levels
                         {
                             Y = j * (_game.GraphicsDevice.Viewport.Height / 9);
                             X = i * (_game.GraphicsDevice.Viewport.Width / 16);
-                            blocks.Add(blockFactory.CreateBlock("NORMAL", X, Y, _game.GraphicsDevice));
+                            Debug.WriteLine(X + " " + Y);
+                            blocks.Add(blockFactory.CreateBlock("NORMAL", X - (_game.GraphicsDevice.Viewport.Width / 16), Y - (_game.GraphicsDevice.Viewport.Height / 9), _game.GraphicsDevice));
                         }
                     }
                 }

@@ -12,17 +12,13 @@ namespace Project
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-
         public static int ScreenWidth { get; set; }
         public static int ScreenHeight { get; set; }
-
         public Texture2D[] woodcutters { get; set; }
-
+        public Texture2D[] backGround { get; set; }
         public bool isSwitch { get; set; } = false;
         public ScreenType screenSelection { get; set; }
-
         private float timer = 3;
-
         private ScreenController _screenController;
 
         public Game1()
@@ -41,6 +37,8 @@ namespace Project
             ScreenWidth = _graphics.PreferredBackBufferWidth;
             ScreenHeight = _graphics.PreferredBackBufferHeight;
 
+            //_graphics.IsFullScreen = true;
+
             _graphics.ApplyChanges();
 
             base.Initialize();
@@ -56,11 +54,23 @@ namespace Project
             var buttonFont = Content.Load<SpriteFont>("Font");
 
             Texture2D woodcutter = Content.Load<Texture2D>("Characters/1 Woodcutter/Woodcutter_idle");
+            Texture2D background1 = Content.Load<Texture2D>("game_background_1");
+            Texture2D background2 = Content.Load<Texture2D>("game_background_2");
+            Texture2D background3 = Content.Load<Texture2D>("game_background_3. 2");
+            Texture2D background4 = Content.Load<Texture2D>("game_background_4");
             Texture2D woodcutterRun = Content.Load<Texture2D>("Characters/1 Woodcutter/Woodcutter_run");
 
             woodcutters = new Texture2D[]{
                 woodcutter,
                 woodcutterRun
+            };
+
+            backGround = new Texture2D[]
+            {
+                background1,
+                background2,
+                background3,
+                background4
             };
 
             //var soundEffect = Content.Load<SoundEffect>("burp");
@@ -110,9 +120,8 @@ namespace Project
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.Gray);
-
             _spriteBatch.Begin();
+            _spriteBatch.Draw(backGround[3], new Rectangle(0, 0, ScreenWidth, ScreenHeight), Color.White);
             _screenController.Draw(_spriteBatch);
             _spriteBatch.End();
 
