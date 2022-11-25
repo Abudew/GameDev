@@ -15,6 +15,7 @@ namespace Project.Controllers
     {
         private Rectangle _boxObj;
         private Vector2 v;
+        private bool hasrun = false;
 
         public Collision(Rectangle box, Vector2 velocity)
         {
@@ -32,28 +33,28 @@ namespace Project.Controllers
 
         public bool isTouchingLeft(Rectangle box)
         {
-            return _boxObj.Right + v.X >= box.Left &&
-                _boxObj.Left <= box.Left &&
-                _boxObj.Bottom >= box.Top &&
-                _boxObj.Top <= box.Bottom;
+            return _boxObj.Right + v.X > box.Left &&
+                _boxObj.Left < box.Left &&
+                _boxObj.Bottom > box.Top &&
+                _boxObj.Top < box.Bottom;
         }
         public bool isTouchingRight(Rectangle box)
         {
-            return _boxObj.Left - v.X <= box.Right &&
-                _boxObj.Right >= box.Right &&
-                _boxObj.Bottom >= box.Top &&
-                _boxObj.Top <= box.Bottom;
+            return _boxObj.Left - v.X < box.Right &&
+                _boxObj.Right > box.Right &&
+                _boxObj.Bottom > box.Top &&
+                _boxObj.Top < box.Bottom;
         }
         public bool isTouchingTop(Rectangle box)
         {
             return _boxObj.Bottom + v.Y > box.Top &&
-                _boxObj.Top < box.Top &&
-                _boxObj.Right > box.Left &&
-                _boxObj.Left < box.Right;
+                    _boxObj.Top < box.Top &&
+                    _boxObj.Right > box.Left &&
+                    _boxObj.Left < box.Right;
         }
         public bool isTouchingBottom(Rectangle box)
         {
-            return _boxObj.Top - v.Y < box.Bottom &&
+            return _boxObj.Top - v.Y < box.Bottom  &&
                 _boxObj.Bottom > box.Top &&
                 _boxObj.Right > box.Left &&
                 _boxObj.Left < box.Right;

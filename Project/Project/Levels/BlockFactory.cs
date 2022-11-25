@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,6 +17,10 @@ namespace Project.Levels
             if (type == "NORMAL")
             {
                 newBlock = new Block(x, y, graphics);
+            }
+            if (type == "EXIT")
+            {
+                newBlock = new Exit(x, y, graphics);
             }
             if (type == "TRAP")
             {

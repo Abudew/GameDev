@@ -18,14 +18,16 @@ namespace Project.Levels
         public bool Passable { get; set; }
         public Color Color { get; set; }
         public Texture2D Texture { get; set; }
+        public BlockType Type { get;  set; }
 
         public ScreenType ScreenType => ScreenType.None;
 
         public Block(int x, int y, GraphicsDevice graphics)
         {
-            box = new Rectangle(x, y, graphics.Viewport.Width / 16, graphics.Viewport.Height / 9);
+            box = new Rectangle(x, y, (graphics.Viewport.Width / 16)/2, (graphics.Viewport.Height / 9)/2);
             Passable = false;
             Color = Color.Black;
+            Type = BlockType.NORMAL;
             Texture = new Texture2D(graphics, 1, 1);
             Texture.SetData(new[] { Color.White });
         }
@@ -41,17 +43,32 @@ namespace Project.Levels
         }
 
     }
-    
+
+    class Exit : Block
+    {
+        public Exit(int x, int y, GraphicsDevice graphics) : base(x, y, graphics)
+        {
+            box = new Rectangle(x, y, graphics.Viewport.Width / 16, graphics.Viewport.Height / 9);
+            Passable = true;
+            Type = BlockType.EXIT;
+            Color = Color.Green;
+            Texture = new Texture2D(graphics, 1, 1);
+            Texture.SetData(new[] { Color.White });
+        }
+    }
+
     class Trap : Block
     {
         public int damage { get; set; }
         public Trap(int x, int y, GraphicsDevice graphics) : base(x, y, graphics)
         {
+            Type = BlockType.TRAP;
             box = new Rectangle(x, y, graphics.Viewport.Width / 16, graphics.Viewport.Height / 9);
             Passable = true;
             Color = Color.Red;
             damage = 10;
             Texture = new Texture2D(graphics, 1, 1);
+            Texture.SetData(new[] { Color.White });
         }
     }
     class Slow : Block
@@ -61,9 +78,11 @@ namespace Project.Levels
         {
             box = new Rectangle(x, y, graphics.Viewport.Width / 16, graphics.Viewport.Height / 9);
             Passable = true;
+            Type = BlockType.SLOW;
             Color = Color.Blue;
             slow = 2;
             Texture = new Texture2D(graphics, 1, 1);
+            Texture.SetData(new[] { Color.White });
         }
     }
 }

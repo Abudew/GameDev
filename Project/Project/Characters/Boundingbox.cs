@@ -26,7 +26,7 @@ namespace Project.Characters
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(_blokTexture, _box, Color.Transparent);
+            spriteBatch.Draw(_blokTexture, _box, Color.Red);
         }
 
         public void Update(int x, int y)

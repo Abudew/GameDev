@@ -6,6 +6,7 @@ using System.Text;
 using Microsoft.Xna.Framework.Input;
 using System.Diagnostics;
 using Project.Interfaces;
+using Project.Levels;
 
 namespace Project.Controllers
 {
@@ -18,8 +19,9 @@ namespace Project.Controllers
         private bool isGrounded = true;
         private bool isGoingUp = false;
         private float beginPos = 0;
+        public bool hasRun { get; set; } = false;
 
-        public void Move(IMovable movable, Collision collision, List<Rectangle> blockTexture, Game1 game)
+        public void Move(IMovable movable, Collision collision, List<Block> blockTexture, Level l, Character character, Game1 game)
         {
             var direction = movable.InputReader.ReadInput();
             KeyboardState state = Keyboard.GetState();
@@ -51,9 +53,22 @@ namespace Project.Controllers
                     s = SpriteEffects.FlipHorizontally;
                 }
             }
+            if (direction.Y < 0 || direction.Y < 0)
+            {
+                rDir.Y = direction.Y;
+            }
+            else
+            {
+                rDir.Y = 0;
+            }
             #endregion
 
             #region jump
+
+            if (!isJump && !isGoingUp && isGrounded)
+            {
+                direction.Y = 0;
+            }
 
             if (direction.Y <= 0 && isGrounded && !isJump)
             {
@@ -65,7 +80,7 @@ namespace Project.Controllers
                 direction.Y = -1;
             }
 
-            if (beginPos - position.Y >= 200 && isGoingUp)
+            if (beginPos - position.Y >= ((game.GraphicsDevice.Viewport.Height / 9)*3) && isGoingUp)
             {
                 isGoingUp = false;
             }
@@ -92,27 +107,42 @@ namespace Project.Controllers
             #region colisionDetection
             foreach (var block in blockTexture)
             {
-                if (direction.X > 0 && collision.isTouchingLeft(block) || direction.X < 0 && collision.isTouchingRight(block))
+                if (direction.X > 0 && collision.isTouchingLeft(block.box) && !block.Passable || direction.X < 0 && collision.isTouchingRight(block.box) && !block.Passable)
                 {
                     direction.X = 0;
                 }
-                if (direction.Y > 0 && collision.isTouchingTop(block))
+                if (direction.Y > 0 && collision.isTouchingTop(block.box) && !block.Passable)
                 {
                     direction.Y = 0;
                     isJump = false;
                     isGoingUp = false;
                     isGrounded = true;
                 }
-                if (direction.Y < 0 && collision.isTouchingBottom(block) && isGoingUp)
+                if (direction.Y < 0 && collision.isTouchingBottom(block.box) && isGoingUp && !block.Passable)
                 {
                     direction.Y = 0;
                     isJump = false;
                     isGoingUp = false;
                 }
+                if (collision.isTouchingBottom(block.box) || collision.isTouchingTop(block.box) || collision.isTouchingLeft(block.box) || collision.isTouchingRight(block.box))
+                {
+                    if (block.Passable && block.Type == BlockType.EXIT)
+                    {
+                        while (hasRun == false)
+                        {
+                            direction = movable.InputReader.ReadInput();
+                            character.Position = new Vector2(0, game.GraphicsDevice.Viewport.Height - character.Selected.Height*2);
+                            Debug.WriteLine(game.GraphicsDevice.Viewport.Height - character.blockTexture.Height * 2);
+                            l.level++;
+                            l.hasRun = false;
+                            hasRun = true;
+                        }
+                    }
+                }
             }
             #endregion
 
-            var afstand = direction * movable.Speed;
+            var afstand = direction;
             movable.Position += afstand;
         }
     }

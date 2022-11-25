@@ -17,19 +17,19 @@ namespace Project.Screens
     internal class GameScreen : IGameObject
     {
         private Character _character;
-        private Texture2D _idle;
-        private Texture2D _run;
         private Game1 _game;
         private Level level;
-        private Rectangle blockTexture2;
+        private MovementController movementController;
         public ScreenType ScreenType => ScreenType.Game;
 
 
-        public GameScreen(Texture2D idle, Texture2D run, Game1 game)
+        public GameScreen(Texture2D[] characters, Game1 game)
         {
+            movementController = new MovementController();
             _game = game;
-            level = new Level(game);
-            _character = new Character(idle, run, new KeyboardController(), new MovementController(), level.blocks, _game);
+            level = new Level(game, movementController);
+            _character = new Character(characters, new KeyboardController(), movementController, level.blocks, level, _game);
+            
         }
         public void Draw(SpriteBatch spriteBatch)
         {
@@ -40,6 +40,7 @@ namespace Project.Screens
 
         public void Update(float delta, GameTime gameTime) 
         {
+            level.Update(delta, gameTime);
             _character.Update(delta, gameTime);
         }
     }
