@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
@@ -23,10 +24,7 @@ namespace Project.Levels
         private int Y = 0;
         public int level { get; set; } = 1;
         private static int[,] gameboard = new int[34,20];
-        private static int[,] level1 = new int[34, 20];
-        private static int[,] level2 = new int[34, 20];
-        private static int[,] level3 = new int[34, 20];
-        private static int[,] level4 = new int[34, 20];
+        private static int[,] levelBoard = new int[33, 19];
 
         public List<Block> blocks = new List<Block>();
         public BlockFactory blockFactory = new BlockFactory();
@@ -69,23 +67,11 @@ namespace Project.Levels
                 {
                     for (int j = 0; j < gameboard.GetLength(1); j++)
                     {
+                        //edges
                         gameboard[0, j] = 1;
                         gameboard[i, 0] = 1;
-                        gameboard[i, 19] = 1;
-                        gameboard[33, j] = 1;
-
-                        for (int l = 7; l < 10; l++)
-                        {
-                            for (int h = 15; h < 16; h++)
-                            {
-                                level1[l, h] = 1;
-                            }
-                        }
-
-                        level1[32, 18] = 2;
-                        level2[32, 18] = 2;
-                        level3[32, 18] = 2;
-                        level4[32, 18] = 2;
+                        gameboard[i, gameboard.GetLength(1)-1] = 1;
+                        gameboard[gameboard.GetLength(0)-1, j] = 1;
                     }
                 }
 
@@ -100,77 +86,265 @@ namespace Project.Levels
                             blocks.Add(blockFactory.CreateBlock("NORMAL", X - (_game.GraphicsDevice.Viewport.Width / 16)/2, Y - (_game.GraphicsDevice.Viewport.Height / 9)/2, _game.GraphicsDevice));
                         }
 
-                        switch (level)
-                        {
-                            case 1:
-                                _movementController.hasRun = false;
-                                if (level1[i, j] == 1)
-                                {
-                                    Y = j * (_game.GraphicsDevice.Viewport.Height / 9) / 2;
-                                    X = i * (_game.GraphicsDevice.Viewport.Width / 16) / 2;
-                                    blocks.Add(blockFactory.CreateBlock("NORMAL", X - (_game.GraphicsDevice.Viewport.Width / 16) / 2, Y - (_game.GraphicsDevice.Viewport.Height / 9) / 2, _game.GraphicsDevice));
-                                }
-                                if (level1[i, j] == 2)
-                                {
-                                    Y = j * (_game.GraphicsDevice.Viewport.Height / 9) / 2;
-                                    X = i * (_game.GraphicsDevice.Viewport.Width / 16) / 2;
-                                    blocks.Add(blockFactory.CreateBlock("EXIT", X - (_game.GraphicsDevice.Viewport.Width / 16) / 2, Y - (_game.GraphicsDevice.Viewport.Height / 9) / 2, _game.GraphicsDevice));
-                                }
-                                break;
-                            case 2:
-                                _movementController.hasRun = false;
-                                if (level2[i, j] == 1)
-                                {
-                                    Y = j * (_game.GraphicsDevice.Viewport.Height / 9) / 2;
-                                    X = i * (_game.GraphicsDevice.Viewport.Width / 16) / 2;
-                                    blocks.Add(blockFactory.CreateBlock("NORMAL", X - (_game.GraphicsDevice.Viewport.Width / 16) / 2, Y - (_game.GraphicsDevice.Viewport.Height / 9) / 2, _game.GraphicsDevice));
-                                }
-                                if (level2[i, j] == 2)
-                                {
-                                    Y = j * (_game.GraphicsDevice.Viewport.Height / 9) / 2;
-                                    X = i * (_game.GraphicsDevice.Viewport.Width / 16) / 2;
-                                    blocks.Add(blockFactory.CreateBlock("EXIT", X - (_game.GraphicsDevice.Viewport.Width / 16) / 2, Y - (_game.GraphicsDevice.Viewport.Height / 9) / 2, _game.GraphicsDevice));
-                                }
-                                break;
-                            case 3:
-                                _movementController.hasRun = false;
-                                if (level3[i, j] == 1)
-                                {
-                                    Y = j * (_game.GraphicsDevice.Viewport.Height / 9) / 2;
-                                    X = i * (_game.GraphicsDevice.Viewport.Width / 16) / 2;
-                                    blocks.Add(blockFactory.CreateBlock("NORMAL", X - (_game.GraphicsDevice.Viewport.Width / 16) / 2, Y - (_game.GraphicsDevice.Viewport.Height / 9) / 2, _game.GraphicsDevice));
-                                }
-                                if (level3[i, j] == 2)
-                                {
-                                    Y = j * (_game.GraphicsDevice.Viewport.Height / 9) / 2;
-                                    X = i * (_game.GraphicsDevice.Viewport.Width / 16) / 2;
-                                    blocks.Add(blockFactory.CreateBlock("EXIT", X - (_game.GraphicsDevice.Viewport.Width / 16) / 2, Y - (_game.GraphicsDevice.Viewport.Height / 9) / 2, _game.GraphicsDevice));
-                                }
-                                break;
-                            case 4:
-                                _movementController.hasRun = false;
-                                if (level4[i, j] == 1)
-                                {
-                                    Y = j * (_game.GraphicsDevice.Viewport.Height / 9) / 2;
-                                    X = i * (_game.GraphicsDevice.Viewport.Width / 16) / 2;
-                                    blocks.Add(blockFactory.CreateBlock("NORMAL", X - (_game.GraphicsDevice.Viewport.Width / 16) / 2, Y - (_game.GraphicsDevice.Viewport.Height / 9) / 2, _game.GraphicsDevice));
-                                }
-                                if (level4[i, j] == 2)
-                                {
-                                    Y = j * (_game.GraphicsDevice.Viewport.Height / 9) / 2;
-                                    X = i * (_game.GraphicsDevice.Viewport.Width / 16) / 2;
-                                    blocks.Add(blockFactory.CreateBlock("EXIT", X - (_game.GraphicsDevice.Viewport.Width / 16) / 2, Y - (_game.GraphicsDevice.Viewport.Height / 9) / 2, _game.GraphicsDevice));
-                                }
-                                break;
-                            default:
-                                level = 1;
-                                _game.isSwitch = true;
-                                _game.screenSelection = ScreenType.MainMenu;
-                                break;
-                        }
+                        
                     }
                 }
+                levels();
                 hasRun = true;
+            }
+        }
+
+        private void levels()
+        {
+            #region level1
+            int[,] level1 = new int[33,19]
+            {
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2 },
+            };
+            #endregion
+            #region level2
+            int[,] level2 = new int[33, 19]
+            {
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2 },
+            };
+            #endregion
+            #region level3
+            int[,] level3 = new int[33, 19]
+            {
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2 },
+            };
+            #endregion
+            #region level4
+            int[,] level4 = new int[33, 19]
+            {
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+            };
+            #endregion
+            #region level5
+            int[,] level5 = new int[33, 19]
+            {
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+                { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+            };
+            #endregion
+
+            #region blockadding
+            for (int i = 1; i < 33; i++)
+            {
+                for (int j = 1; j < 19; j++)
+                {
+                    switch (level)
+                    {
+                        case 1:
+                            levelBoard[i,j] = level1[i,j];
+                            levelGen(i, j);
+                            break;
+                        case 2:
+                            levelBoard[i, j] = level2[i, j];
+                            levelGen(i, j);
+                            break;
+                        case 3:
+                            levelBoard[i, j] = level3[i, j];
+                            levelGen(i, j);
+                            break;
+                        case 4:
+                            levelBoard[i, j] = level4[i, j];
+                            levelGen(i, j);
+                            break;
+                        case 5:
+                            levelBoard[i, j] = level5[i, j];
+                            levelGen(i, j);
+                            break;
+                        default:
+                            level = 1;
+                            _game.isSwitch = true;
+                            _game.screenSelection = ScreenType.MainMenu;
+                            break;
+                    }
+                }
+            }
+            #endregion
+        }
+
+        private void levelGen(int i, int j)
+        {
+            _movementController.hasRun = false;
+            if (levelBoard[i, j] == 1)
+            {
+                Y = j * (_game.GraphicsDevice.Viewport.Height / 9) / 2;
+                X = i * (_game.GraphicsDevice.Viewport.Width / 16) / 2;
+                blocks.Add(blockFactory.CreateBlock("NORMAL", X - (_game.GraphicsDevice.Viewport.Width / 16) / 2, Y - (_game.GraphicsDevice.Viewport.Height / 9) / 2, _game.GraphicsDevice));
+            }
+            if (levelBoard[i, j] == 2)
+            {
+                Y = j * (_game.GraphicsDevice.Viewport.Height / 9) / 2;
+                X = i * (_game.GraphicsDevice.Viewport.Width / 16) / 2;
+                blocks.Add(blockFactory.CreateBlock("EXIT", X - (_game.GraphicsDevice.Viewport.Width / 16) / 2, Y - (_game.GraphicsDevice.Viewport.Height / 9) / 2, _game.GraphicsDevice));
+            }
+            if (levelBoard[i, j] == 3)
+            {
+                Y = j * (_game.GraphicsDevice.Viewport.Height / 9) / 2;
+                X = i * (_game.GraphicsDevice.Viewport.Width / 16) / 2;
+                blocks.Add(blockFactory.CreateBlock("TRAP", X - (_game.GraphicsDevice.Viewport.Width / 16) / 2, Y - (_game.GraphicsDevice.Viewport.Height / 9) / 2, _game.GraphicsDevice));
             }
         }
     }

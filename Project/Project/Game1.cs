@@ -1,4 +1,4 @@
-﻿using Microsoft.Xna.Framework;
+﻿ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -57,6 +57,7 @@ namespace Project
             Texture2D woodcutterWalk = Content.Load<Texture2D>("Characters/1 Woodcutter/Woodcutter_walk");
             Texture2D woodcutterRun = Content.Load<Texture2D>("Characters/1 Woodcutter/Woodcutter_run");
             Texture2D woodcutterJump = Content.Load<Texture2D>("Characters/1 Woodcutter/Woodcutter_jump");
+            Texture2D woodcutterDamage = Content.Load<Texture2D>("Characters/1 Woodcutter/Woodcutter_hurt");
             Texture2D background1 = Content.Load<Texture2D>("game_background_1");
             Texture2D background2 = Content.Load<Texture2D>("game_background_2");
             Texture2D background3 = Content.Load<Texture2D>("game_background_3. 2");
@@ -67,7 +68,8 @@ namespace Project
                 woodcutter,
                 woodcutterWalk,
                 woodcutterRun,
-                woodcutterJump
+                woodcutterJump,
+                woodcutterDamage
             };
 
             backGround = new Texture2D[]

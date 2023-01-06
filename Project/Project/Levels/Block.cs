@@ -48,7 +48,7 @@ namespace Project.Levels
     {
         public Exit(int x, int y, GraphicsDevice graphics) : base(x, y, graphics)
         {
-            box = new Rectangle(x, y, graphics.Viewport.Width / 16, graphics.Viewport.Height / 9);
+            box = new Rectangle(x, y, (graphics.Viewport.Width / 16) / 2, (graphics.Viewport.Height / 9) / 2);
             Passable = true;
             Type = BlockType.EXIT;
             Color = Color.Green;
@@ -63,10 +63,10 @@ namespace Project.Levels
         public Trap(int x, int y, GraphicsDevice graphics) : base(x, y, graphics)
         {
             Type = BlockType.TRAP;
-            box = new Rectangle(x, y, graphics.Viewport.Width / 16, graphics.Viewport.Height / 9);
+            box = new Rectangle(x, y, (graphics.Viewport.Width / 16) / 2, (graphics.Viewport.Height / 9) / 2);
             Passable = true;
             Color = Color.Red;
-            damage = 10;
+            damage = 1;
             Texture = new Texture2D(graphics, 1, 1);
             Texture.SetData(new[] { Color.White });
         }
@@ -76,7 +76,7 @@ namespace Project.Levels
         public float slow { get; set; }
         public Slow(int x, int y, GraphicsDevice graphics) : base(x, y, graphics)
         {
-            box = new Rectangle(x, y, graphics.Viewport.Width / 16, graphics.Viewport.Height / 9);
+            box = new Rectangle(x, y, (graphics.Viewport.Width / 16) / 2, (graphics.Viewport.Height / 9) / 2);
             Passable = true;
             Type = BlockType.SLOW;
             Color = Color.Blue;

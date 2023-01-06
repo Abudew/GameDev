@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,7 +16,6 @@ namespace Project.Controllers
     {
         private Rectangle _boxObj;
         private Vector2 v;
-        private bool hasrun = false;
 
         public Collision(Rectangle box, Vector2 velocity)
         {
@@ -40,10 +40,18 @@ namespace Project.Controllers
         }
         public bool isTouchingRight(Rectangle box)
         {
-            return _boxObj.Left - v.X < box.Right &&
+            if(v.X == -8)
+            {
+                return _boxObj.Left - v.X < box.Right + 16 &&
                 _boxObj.Right > box.Right &&
                 _boxObj.Bottom > box.Top &&
                 _boxObj.Top < box.Bottom;
+            }
+            return _boxObj.Left - v.X < box.Right + 8 &&
+                _boxObj.Right > box.Right &&
+                _boxObj.Bottom > box.Top &&
+                _boxObj.Top < box.Bottom;
+
         }
         public bool isTouchingTop(Rectangle box)
         {

@@ -7,12 +7,15 @@ using Microsoft.Xna.Framework.Input;
 using System.Diagnostics;
 using Project.Interfaces;
 using Project.Levels;
+using Microsoft.VisualBasic;
+using System.Threading;
 
 namespace Project.Controllers
 {
     class MovementController
     {
         private bool goR = true;
+        private Trap trap;
         public SpriteEffects s;
         public Vector2 rDir;
         private bool isJump = false;
@@ -132,17 +135,30 @@ namespace Project.Controllers
                         {
                             direction = movable.InputReader.ReadInput();
                             character.Position = new Vector2(0, game.GraphicsDevice.Viewport.Height - character.Selected.Height*2);
-                            Debug.WriteLine(game.GraphicsDevice.Viewport.Height - character.blockTexture.Height * 2);
                             l.level++;
                             l.hasRun = false;
                             hasRun = true;
                         }
                     }
+                    if (block.Passable && block.Type == BlockType.TRAP)
+                    {
+                        trap = (Trap)block;
+                        direction = movable.InputReader.ReadInput();
+                        character.damageTaken = trap.damage;
+                    }
+                    else
+                    {
+                        character.damageTaken = 0;
+                    }
+                }
+                if (!collision.isTouchingBottom(block.box) || !collision.isTouchingTop(block.box) || !collision.isTouchingLeft(block.box) || !collision.isTouchingRight(block.box))
+                {
+                    hasRun = false;
                 }
             }
             #endregion
 
-            var afstand = direction;
+            var afstand = direction * speed;
             movable.Position += afstand;
         }
     }
