@@ -14,6 +14,7 @@ namespace Project.Controllers
         MainMenu,
         New,
         Load,
-        Game
+        Game,
+        GameOver
     }
 }

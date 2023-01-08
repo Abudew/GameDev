@@ -553,6 +553,18 @@
 /processorParam:TextureFormat=Color
 /build:Characters/4 Effects/Walk_dust_6x24.png
 
+#begin Exit.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Exit.png
+
 #begin Font.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor
@@ -607,6 +619,30 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:game_background_4.png
+
+#begin Gameover.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Gameover.png
+
+#begin Golems/Golem_01/PNG Sequences/Attacking/css_sprites(1).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Golems/Golem_01/PNG Sequences/Attacking/css_sprites(1).png
 
 #begin Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_000.png
 /importer:TextureImporter
@@ -751,6 +787,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Golems/Golem_01/PNG Sequences/Attacking/Golem_01_Attacking_011.png
+
+#begin Golems/Golem_01/PNG Sequences/Dying/css_sprites(2).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Golems/Golem_01/PNG Sequences/Dying/css_sprites(2).png
 
 #begin Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_000.png
 /importer:TextureImporter
@@ -932,6 +980,18 @@
 /processorParam:TextureFormat=Color
 /build:Golems/Golem_01/PNG Sequences/Dying/Golem_01_Dying_014.png
 
+#begin Golems/Golem_01/PNG Sequences/Hurt/css_sprites(3).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Golems/Golem_01/PNG Sequences/Hurt/css_sprites(3).png
+
 #begin Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_000.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -1076,7 +1136,7 @@
 /processorParam:TextureFormat=Color
 /build:Golems/Golem_01/PNG Sequences/Hurt/Golem_01_Hurt_011.png
 
-#begin Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_000.png
+#begin Golems/Golem_01/PNG Sequences/Idle/css_sprites.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1086,139 +1146,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_000.png
-
-#begin Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_001.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_001.png
-
-#begin Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_002.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_002.png
-
-#begin Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_003.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_003.png
-
-#begin Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_004.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_004.png
-
-#begin Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_005.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_005.png
-
-#begin Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_006.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_006.png
-
-#begin Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_007.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_007.png
-
-#begin Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_008.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_008.png
-
-#begin Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_009.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_009.png
-
-#begin Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_010.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_010.png
-
-#begin Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_011.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Idle Blink/Golem_01_Idle Blinking_011.png
+/build:Golems/Golem_01/PNG Sequences/Idle/css_sprites.png
 
 #begin Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_000.png
 /importer:TextureImporter
@@ -1363,150 +1291,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Golems/Golem_01/PNG Sequences/Idle/Golem_01_Idle_011.png
-
-#begin Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_000.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_000.png
-
-#begin Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_001.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_001.png
-
-#begin Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_002.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_002.png
-
-#begin Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_003.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_003.png
-
-#begin Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_004.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_004.png
-
-#begin Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_005.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Jump Loop/Golem_01_Jump Loop_005.png
-
-#begin Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_000.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_000.png
-
-#begin Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_001.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_001.png
-
-#begin Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_002.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_002.png
-
-#begin Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_003.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_003.png
-
-#begin Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_004.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_004.png
-
-#begin Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_005.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_01/PNG Sequences/Jump Start/Golem_01_Jump Start_005.png
 
 #begin Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_000.png
 /importer:TextureImporter
@@ -1724,6 +1508,18 @@
 /processorParam:TextureFormat=Color
 /build:Golems/Golem_01/PNG Sequences/Taunt/Golem_01_Taunt_017.png
 
+#begin Golems/Golem_01/PNG Sequences/Walking/css_sprites(4).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Golems/Golem_01/PNG Sequences/Walking/css_sprites(4).png
+
 #begin Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_000.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -1940,6 +1736,18 @@
 /processorParam:TextureFormat=Color
 /build:Golems/Golem_01/PNG Sequences/Walking/Golem_01_Walking_017.png
 
+#begin Golems/Golem_02/PNG Sequences/Attacking/css_sprites(5).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Golems/Golem_02/PNG Sequences/Attacking/css_sprites(5).png
+
 #begin Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_000.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -2083,6 +1891,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Golems/Golem_02/PNG Sequences/Attacking/Golem_02_Attacking_011.png
+
+#begin Golems/Golem_02/PNG Sequences/Dying/css_sprites(6).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Golems/Golem_02/PNG Sequences/Dying/css_sprites(6).png
 
 #begin Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_000.png
 /importer:TextureImporter
@@ -2264,6 +2084,18 @@
 /processorParam:TextureFormat=Color
 /build:Golems/Golem_02/PNG Sequences/Dying/Golem_02_Dying_014.png
 
+#begin Golems/Golem_02/PNG Sequences/Hurt/css_sprites(7).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Golems/Golem_02/PNG Sequences/Hurt/css_sprites(7).png
+
 #begin Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_000.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -2408,7 +2240,7 @@
 /processorParam:TextureFormat=Color
 /build:Golems/Golem_02/PNG Sequences/Hurt/Golem_02_Hurt_011.png
 
-#begin Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_000.png
+#begin Golems/Golem_02/PNG Sequences/Idle/css_sprites(8).png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -2418,139 +2250,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_000.png
-
-#begin Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_001.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_001.png
-
-#begin Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_002.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_002.png
-
-#begin Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_003.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_003.png
-
-#begin Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_004.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_004.png
-
-#begin Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_005.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_005.png
-
-#begin Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_006.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_006.png
-
-#begin Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_007.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_007.png
-
-#begin Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_008.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_008.png
-
-#begin Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_009.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_009.png
-
-#begin Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_010.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_010.png
-
-#begin Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_011.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Idle Blink/Golem_02_Idle Blinking_011.png
+/build:Golems/Golem_02/PNG Sequences/Idle/css_sprites(8).png
 
 #begin Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_000.png
 /importer:TextureImporter
@@ -2695,150 +2395,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Golems/Golem_02/PNG Sequences/Idle/Golem_02_Idle_011.png
-
-#begin Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_000.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_000.png
-
-#begin Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_001.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_001.png
-
-#begin Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_002.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_002.png
-
-#begin Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_003.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_003.png
-
-#begin Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_004.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_004.png
-
-#begin Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_005.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Jump Loop/Golem_02_Jump Loop_005.png
-
-#begin Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_000.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_000.png
-
-#begin Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_001.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_001.png
-
-#begin Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_002.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_002.png
-
-#begin Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_003.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_003.png
-
-#begin Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_004.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_004.png
-
-#begin Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_005.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_02/PNG Sequences/Jump Start/Golem_02_Jump Start_005.png
 
 #begin Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_000.png
 /importer:TextureImporter
@@ -3056,6 +2612,18 @@
 /processorParam:TextureFormat=Color
 /build:Golems/Golem_02/PNG Sequences/Taunt/Golem_02_Taunt_017.png
 
+#begin Golems/Golem_02/PNG Sequences/Walking/css_sprites(9).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Golems/Golem_02/PNG Sequences/Walking/css_sprites(9).png
+
 #begin Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_000.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -3272,6 +2840,18 @@
 /processorParam:TextureFormat=Color
 /build:Golems/Golem_02/PNG Sequences/Walking/Golem_02_Walking_017.png
 
+#begin Golems/Golem_03/PNG Sequences/Attacking/css_sprites(10).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Golems/Golem_03/PNG Sequences/Attacking/css_sprites(10).png
+
 #begin Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_000.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -3415,6 +2995,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Golems/Golem_03/PNG Sequences/Attacking/Golem_03_Attacking_011.png
+
+#begin Golems/Golem_03/PNG Sequences/Dying/css_sprites(11).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Golems/Golem_03/PNG Sequences/Dying/css_sprites(11).png
 
 #begin Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_000.png
 /importer:TextureImporter
@@ -3596,6 +3188,18 @@
 /processorParam:TextureFormat=Color
 /build:Golems/Golem_03/PNG Sequences/Dying/Golem_03_Dying_014.png
 
+#begin Golems/Golem_03/PNG Sequences/Hurt/css_sprites(12).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Golems/Golem_03/PNG Sequences/Hurt/css_sprites(12).png
+
 #begin Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_000.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -3740,7 +3344,7 @@
 /processorParam:TextureFormat=Color
 /build:Golems/Golem_03/PNG Sequences/Hurt/Golem_03_Hurt_011.png
 
-#begin Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_000.png
+#begin Golems/Golem_03/PNG Sequences/Idle/css_sprites(13).png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -3750,139 +3354,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_000.png
-
-#begin Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_001.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_001.png
-
-#begin Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_002.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_002.png
-
-#begin Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_003.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_003.png
-
-#begin Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_004.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_004.png
-
-#begin Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_005.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_005.png
-
-#begin Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_006.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_006.png
-
-#begin Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_007.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_007.png
-
-#begin Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_008.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_008.png
-
-#begin Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_009.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_009.png
-
-#begin Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_010.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_010.png
-
-#begin Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_011.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Idle Blink/Golem_03_Idle Blinking_011.png
+/build:Golems/Golem_03/PNG Sequences/Idle/css_sprites(13).png
 
 #begin Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_000.png
 /importer:TextureImporter
@@ -4027,150 +3499,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Golems/Golem_03/PNG Sequences/Idle/Golem_03_Idle_011.png
-
-#begin Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_000.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_000.png
-
-#begin Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_001.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_001.png
-
-#begin Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_002.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_002.png
-
-#begin Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_003.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_003.png
-
-#begin Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_004.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_004.png
-
-#begin Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_005.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Jump Loop/Golem_03_Jump Loop_005.png
-
-#begin Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_000.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_000.png
-
-#begin Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_001.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_001.png
-
-#begin Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_002.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_002.png
-
-#begin Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_003.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_003.png
-
-#begin Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_004.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_004.png
-
-#begin Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_005.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Golems/Golem_03/PNG Sequences/Jump Start/Golem_03_Jump Start_005.png
 
 #begin Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_000.png
 /importer:TextureImporter
@@ -4388,6 +3716,18 @@
 /processorParam:TextureFormat=Color
 /build:Golems/Golem_03/PNG Sequences/Taunt/Golem_03_Taunt_017.png
 
+#begin Golems/Golem_03/PNG Sequences/Walking/css_sprites(14).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Golems/Golem_03/PNG Sequences/Walking/css_sprites(14).png
+
 #begin Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_000.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -4604,6 +3944,18 @@
 /processorParam:TextureFormat=Color
 /build:Golems/Golem_03/PNG Sequences/Walking/Golem_03_Walking_017.png
 
+#begin spikes.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:spikes.png
+
 #begin Splash.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -4615,4 +3967,40 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Splash.png
+
+#begin Tile.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tile.png
+
+#begin TX Tileset Ground.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TX Tileset Ground.png
+
+#begin TX Village Props.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TX Village Props.png
 

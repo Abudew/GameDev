@@ -15,12 +15,10 @@ namespace Project.Characters
     {
         public Texture2D _blokTexture;
         public Rectangle _box;
-        private Character _character;
 
-        public Boundingbox(int x, int y, int w, int h, Texture2D blokTexture, Character character)
+        public Boundingbox(int x, int y, int w, int h, Texture2D blokTexture)
         {
             _blokTexture = blokTexture;
-            _character = character;
             _box = new Rectangle(x, y, w, h);
         }
 
@@ -31,14 +29,7 @@ namespace Project.Characters
 
         public void Update(int x, int y)
         {
-            if (_character.isLeft)
-            {
-                _box.X = x;
-            } 
-            else 
-            {
-                _box.X = x + _box.Width;
-            }
+            _box.X = x;
             _box.Y = y + 16;
         }
     }

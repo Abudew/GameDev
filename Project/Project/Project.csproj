@@ -11,6 +11,11 @@
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Content\css_sprites%281%29.png" />
+    <None Remove="Content\css_sprites%282%29.png" />
+    <None Remove="Content\css_sprites%283%29.png" />
+    <None Remove="Content\css_sprites%284%29.png" />
+    <None Remove="Content\css_sprites.png" />
     <None Remove="Icon.ico" />
     <None Remove="Icon.bmp" />
   </ItemGroup>

@@ -40,13 +40,6 @@ namespace Project.Controllers
         }
         public bool isTouchingRight(Rectangle box)
         {
-            if(v.X == -8)
-            {
-                return _boxObj.Left - v.X < box.Right + 16 &&
-                _boxObj.Right > box.Right &&
-                _boxObj.Bottom > box.Top &&
-                _boxObj.Top < box.Bottom;
-            }
             return _boxObj.Left - v.X < box.Right + 8 &&
                 _boxObj.Right > box.Right &&
                 _boxObj.Bottom > box.Top &&

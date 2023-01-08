@@ -10,25 +10,25 @@ namespace Project.Levels
 {
     class BlockFactory
     {
-        public Block CreateBlock(string type, int x, int y, GraphicsDevice graphics)
+        public Block CreateBlock(string type, int x, int y, Texture2D[] tiles, GraphicsDevice graphics)
         {
             Block newBlock = null;
             type = type.ToUpper();
             if (type == "NORMAL")
             {
-                newBlock = new Block(x, y, graphics);
+                newBlock = new Block(x, y, graphics, tiles);
             }
             if (type == "EXIT")
             {
-                newBlock = new Exit(x, y, graphics);
+                newBlock = new Exit(x, y, graphics, tiles);
             }
             if (type == "TRAP")
             {
-                newBlock = new Trap(x, y, graphics);
+                newBlock = new Trap(x, y, graphics, tiles);
             }
             if (type == "SLOW")
             {
-                newBlock = new Slow(x, y, graphics);
+                newBlock = new Slow(x, y, graphics, tiles);
             }
             return newBlock;
         }

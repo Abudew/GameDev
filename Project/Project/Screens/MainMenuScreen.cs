@@ -18,9 +18,9 @@ namespace Project.Screens
         private readonly Texture2D _exitButtonHover;
         private Texture2D _exitButtonHovered;
 
-        private readonly Texture2D _loadButton;
+        /*private readonly Texture2D _loadButton;
         private readonly Texture2D _loadButtonHover;
-        private Texture2D _loadButtonHovered;
+        private Texture2D _loadButtonHovered;*/
 
         private readonly Texture2D _newButton;
         private readonly Texture2D _newButtonHover;
@@ -41,9 +41,9 @@ namespace Project.Screens
             _newButtonHover = buttonHover;
             _newButtonHovered = button;
 
-            _loadButton = button;
+            /*_loadButton = button;
             _loadButtonHover = buttonHover;
-            _loadButtonHovered = button;
+            _loadButtonHovered = button;*/
 
             _font = font;
 
@@ -60,13 +60,13 @@ namespace Project.Screens
                 new Vector2(exitVector.X, exitVector.Y-400),
                 Color.White
             );
-            spriteBatch.DrawString(_font, "New Game", new Vector2(exitVector.X + 115, exitVector.Y - 385), Color.Black);
-            spriteBatch.Draw(
+            spriteBatch.DrawString(_font, "Start", new Vector2(exitVector.X + 115, exitVector.Y - 385), Color.Black);
+            /*spriteBatch.Draw(
                 _loadButtonHovered,
                 new Vector2(exitVector.X, exitVector.Y-300),
                 Color.White
             );
-            spriteBatch.DrawString(_font, "Load Game", new Vector2(exitVector.X + 115, exitVector.Y - 285), Color.Black);
+            spriteBatch.DrawString(_font, "Load Game", new Vector2(exitVector.X + 115, exitVector.Y - 285), Color.Black);*/
             spriteBatch.Draw(
                 _exitButtonHovered,
                 exitVector,
@@ -81,7 +81,7 @@ namespace Project.Screens
             var mouseState = Mouse.GetState();
             var mousePoint = new Point(mouseState.X, mouseState.Y);
             var exitButton = new Rectangle((int)exitVector.X, (int)exitVector.Y, this._exitButton.Width, this._exitButton.Height);
-            var loadButton = new Rectangle((int)exitVector.X, (int)(exitVector.Y-300), this._exitButton.Width, this._exitButton.Height);
+            //var loadButton = new Rectangle((int)exitVector.X, (int)(exitVector.Y-300), this._exitButton.Width, this._exitButton.Height);
             var newButton = new Rectangle((int)exitVector.X, (int)(exitVector.Y-400), this._exitButton.Width, this._exitButton.Height);
             var isClicked = mouseState.LeftButton;
 
@@ -102,7 +102,7 @@ namespace Project.Screens
                     _game.screenSelection = ScreenType.Game;
                 }
             }
-            else if (loadButton.Contains(mousePoint))
+            /*else if (loadButton.Contains(mousePoint))
             {
                 _loadButtonHovered = _loadButtonHover;
                 if (isClicked == ButtonState.Pressed)
@@ -110,11 +110,11 @@ namespace Project.Screens
                     _game.isSwitch = true;
                     _game.screenSelection = ScreenType.Load;
                 }
-            }
+            }*/
             else
             {
                 _exitButtonHovered = _exitButton;
-                _loadButtonHovered = _loadButton;
+                //_loadButtonHovered = _loadButton;
                 _newButtonHovered = _newButton;
                 _game.isSwitch = false;
             }

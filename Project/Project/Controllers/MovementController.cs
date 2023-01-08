@@ -9,6 +9,7 @@ using Project.Interfaces;
 using Project.Levels;
 using Microsoft.VisualBasic;
 using System.Threading;
+using Project.Characters;
 
 namespace Project.Controllers
 {
@@ -54,6 +55,7 @@ namespace Project.Controllers
                 else
                 {
                     s = SpriteEffects.FlipHorizontally;
+                    character._boundingBox._box.X = character._boundingBox._box.X + character._boundingBox._box.Width;
                 }
             }
             if (direction.Y < 0 || direction.Y < 0)
@@ -110,7 +112,11 @@ namespace Project.Controllers
             #region colisionDetection
             foreach (var block in blockTexture)
             {
-                if (direction.X > 0 && collision.isTouchingLeft(block.box) && !block.Passable || direction.X < 0 && collision.isTouchingRight(block.box) && !block.Passable)
+                if (direction.X > 0 && collision.isTouchingLeft(block.box) && !block.Passable)
+                {
+                    direction.X = 0;
+                }
+                if(direction.X < 0 && collision.isTouchingRight(block.box) && !block.Passable)
                 {
                     direction.X = 0;
                 }
@@ -143,8 +149,8 @@ namespace Project.Controllers
                     if (block.Passable && block.Type == BlockType.TRAP)
                     {
                         trap = (Trap)block;
-                        direction = movable.InputReader.ReadInput();
-                        character.damageTaken = trap.damage;
+                        direction = new Vector2(0,0);
+                        character.setDamage(trap.damage);
                     }
                     else
                     {
